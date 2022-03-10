@@ -1,0 +1,98 @@
+/* About us styles */
+.about {
+    width: 90%;
+    margin: 70px auto;
+}
+.about .heading {
+    position: relative;
+}
+.about .heading .cover {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    color: #e7e7e7;
+    z-index: -1;
+    margin-top: -20px;
+    margin-left: -5%;
+}
+.about .heading .title {
+    font-weight: 800;
+    font-size: 20px;
+}
+.about .info .intro {
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 25px;
+    color: #888888;
+}
+.about .info .row {
+    margin: 0;
+}
+.about .info .sub-row {
+    grid-column-gap: 0;
+    margin: 0;
+}
+.about .info .sub-row .fa {
+    font-size: 30px;
+    color: #d6960b;
+}
+.about .info .sub-row .title {
+    font-weight: 800;
+}
+.about .info .sub-row p {
+    padding-left: 3%;
+}
+.about .info .sub-row .sub-title {
+    color: #888888;
+    padding-top: 5px;
+}
+.about .vehicle_img {
+    width: 100%;
+    margin-top: 40px;
+    border-bottom: 5px solid #d6960b;
+}
+.about .vehicle_img img {
+    height: 100%;
+    width: 100%;
+}
+.waw {
+    margin: 40px auto;
+}
+.waw .title {
+    font-weight: 550;
+}
+.waw .info {
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 25px;
+    color: #888888;
+}
+.om {
+    margin: 40px auto;
+}
+.om .title {
+    font-weight: 550;
+}
+.om .info {
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 25px;
+    color: #888888;
+}
+
+/* Mobile Responsiveness */
+/* Responsiveness at 500px */
+@media screen and (max-width:500px) {
+    .section .about p.title {
+        font-size: 15px;
+    }
+    .section .about {
+        font-size: 13px;
+    }
+    .section .about .col-1 .fa {
+        font-size: 20px;
+    }
+    .section .about .col-10 p {
+        font-size: 12px;
+    }
+}

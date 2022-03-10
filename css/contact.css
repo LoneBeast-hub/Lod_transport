@@ -1,0 +1,77 @@
+/* Contact */
+.contact {
+    width: 90%;
+    margin: 50px auto;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    text-align: center;
+}
+.contact p.title {
+    font-weight: 550;
+    color: #d6960b;
+    font-size: 20px;
+}
+.contact p.sub-title {
+    color: #888888;
+    padding: 10px;
+}
+.contact .info p {
+    color: #888888;
+    padding: 10px;
+}
+.contact .info p span.sub-info {
+    color: #d6960b;
+}
+/* message */
+.messenger {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+.messenger .title {
+    font-weight: 550;
+    color: #d6960b;
+    padding: 10px;
+    text-align: center;
+}
+.messenger div label, div input, div textarea {
+    display: block;
+}
+.messenger div label {
+    font-size: 13px;
+}
+.messenger div {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 90%;
+}
+.messenger div input, div textarea {
+    width: 96%;
+    padding: 2%;
+    border: 1px solid #bababa;
+    border-radius: 2px;
+}
+.messenger div .submit {
+    color: #efefef;
+    background: #049904;
+    display: block;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Mobile Responsiveness */
+/* Responsiveness at 500px */
+@media screen and (max-width: 500px) {
+    /* contact */
+    .contact p.title{
+        font-size: 18px;
+    }
+    .contact p.sub-title {
+        font-size: 15px;
+    }
+    .contact .info p {
+        font-size: 12px;
+    }
+}

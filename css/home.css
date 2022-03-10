@@ -1,0 +1,406 @@
+/* header styles */
+.header {
+    border-bottom: 5px solid #d6960b;
+}
+.header .header_img {
+    width: 100%;
+    height: 675px;
+    position: relative;
+}
+.header .header_img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.header .header_img .img_cover {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+}
+.header .header_img .header_info {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.header_info span.fa-truck {
+    padding-top: 100px;
+    font-size: 50px;
+    color: #efefef;
+    animation-name: moveTruck;
+    animation-duration: 1s;
+}
+@keyframes moveTruck {
+    from {
+        margin-left: -40%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+.header_info p {
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: #efefef;
+}
+.header_info .intro {
+    font-size: 50px;
+    animation-name: introAnim;
+    animation-duration: 1s;
+}
+@keyframes introAnim {
+    from {
+        margin-top: 40%;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.header_info .intro .colored {
+    color: #d6960b;
+}
+
+/* section styles */
+.section .trackProduct {
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px 0;
+}
+.trackProduct .row {
+    margin-top: 0;
+    grid-row-gap: 10px;
+    margin-left: auto;
+}
+.trackProduct .heading p.title {
+    font-weight: 600;
+    color: #000;
+}
+.trackProduct .heading p.sub-title {
+    color: #888888;
+    font-size: 15px;
+}
+.trackProduct .info input {
+    display: block;
+    width: 94%;
+    padding: 3%;
+    color: #808080;
+    border-width: 0;
+    box-shadow: 0 0 7px #bababa;
+}
+.trackProduct .info a {
+    display: block;
+    text-align: center;
+    padding: 3%;
+    background: #049904;
+    border-radius: 5px;
+    color: #efefef;
+}
+/* About us styles */
+.about {
+    width: 90%;
+    margin: 70px auto;
+}
+.about .heading {
+    position: relative;
+}
+.about .heading .cover {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    color: #e7e7e7;
+    z-index: -1;
+    margin-top: -20px;
+    margin-left: -5%;
+}
+.about .heading .title {
+    font-weight: 800;
+    font-size: 20px;
+}
+.about .info .intro {
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 25px;
+    color: #888888;
+}
+.about .info .row {
+    margin: 0;
+}
+.about .info .sub-row {
+    grid-column-gap: 0;
+    margin: 0;
+}
+.about .info .sub-row .fa {
+    font-size: 30px;
+    color: #d6960b;
+}
+.about .info .sub-row .title {
+    font-weight: 800;
+}
+.about .info .sub-row p {
+    padding-left: 3%;
+}
+.about .info .sub-row .sub-title {
+    color: #888888;
+    padding-top: 5px;
+}
+.about .vehicle_img {
+    width: 100%;
+    margin-top: 40px;
+    border-bottom: 5px solid #d6960b;
+}
+.about .vehicle_img img {
+    height: 100%;
+    width: 100%;
+}
+/* Calculate styles */
+.calculate {
+    width: 90%;
+    margin: auto;
+}
+.calculate .calculate_img {
+    width: 100%;
+    position: relative;
+}
+.calculate .calculate_img img {
+    width: 100%;
+    position: absolute;
+}
+.calculate .calculate_img div {
+    text-align: right;
+    width: 100%;
+    position: absolute;
+}
+.calculate .calculate_img p.cover {
+    font-size: 70px;
+    font-weight: 700;
+    color: #e7e7e7;
+    z-index: -1;
+    margin-top: 20px;
+}
+.calculate .calculate_info {
+    width: 90%;
+    margin: 20px auto;
+}
+.calculate .calculate_info .calculate_title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #d6960b;
+}
+.calculate .calculate_info .calculate_subtitle {
+    color: #888888;
+    padding: 15px 0;
+}
+.calculate .calculate_form div label{
+    display: block;
+    font-weight: 550;
+    padding-bottom: 10px;
+    color: #d6960b;
+}
+.calculate .calculate_form div input {
+    display: block;
+    margin-bottom: 10px;
+    width: 96%;
+    border: 1px solid #bababa;
+    background: none;
+    border-radius: 5px;
+    padding: 2%;
+    color: #888888;
+}
+.calculate .calculate_form div select {
+    width: 100%;
+    padding: 2%;
+    background: none;
+    border: 1px solid #bababa;
+    color: #888888;
+    border-radius: 5px;
+}
+.calculate .calculate_form div.sn {
+    margin: 10px 0;
+}
+.calculate .calculate_form div.sn p, .calculate .calculate_form div.dc p {
+    color: #888888;
+}
+.calculate .calculate_form div.sn a, .calculate .calculate_form div.dc a {
+    color: #efefef;
+    margin: 10px 0;
+    display: block;
+    background: #049904;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Testimonies */
+.testimonies {
+    margin: 50px auto;
+    background: linear-gradient(90deg,#d6960b, #f8c452);
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+}
+
+/* Contact */
+.contact {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    text-align: center;
+}
+.contact p.title {
+    font-weight: 550;
+    color: #d6960b;
+    font-size: 20px;
+}
+.contact p.sub-title {
+    color: #888888;
+    padding: 10px;
+}
+.contact .info p {
+    color: #888888;
+    padding: 10px;
+}
+.contact .info p span.sub-info {
+    color: #d6960b;
+}
+/* Mobile Responsiveness */
+/* Responsiveness at 700px */
+@media screen and (max-width: 700px) {
+    /* header */
+    .header .header_img {
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+    .header .header_img img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .header_info .intro {
+        font-size: 40px;
+    }
+}
+/* Responsiveness at 600px */
+@media screen and (max-width: 600px) {
+    /* header */
+    .header .header_img {
+        width: 100%;
+        height: 550px;
+        position: relative;
+    }
+}
+/* Responsiveness at 500px */
+@media screen and (max-width: 500px) {
+    /* header */
+    .header .header_img {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .header .header_img img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .header_info .intro {
+        font-size: 30px;
+    }
+
+    /* track product */
+    .trackProduct p.title {
+        font-size: 14px;
+    }
+    .trackProduct .col-6 p.sub-title {
+        font-size: 12px;
+    }
+    .trackProduct .col-6 a.trackBtn {
+        font-size: 12px;
+    }
+
+    /* about us */
+    .about p.title {
+        font-size: 14px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .about .row .col-1 span.fa {
+        font-size: 25px;
+    }
+    .about .col-10 p {
+        font-size: 12px;
+    }
+
+    /* calculate */
+    .calculate .calculate_info p.calculate_title {
+        font-size: 18px;
+    }
+    .calculate .calculate_info p.calculate_subtitle {
+        font-size: 15px;
+    }
+    .calculate .calculate_form {
+        font-size: 13px;
+    }
+
+    /* contact */
+    .contact p.title{
+        font-size: 18px;
+    }
+    .contact p.sub-title {
+        font-size: 15px;
+    }
+    .contact .info p {
+        font-size: 12px;
+    }
+}
+/* Responsiveness at 400px */
+@media screen and (max-width: 400px) {
+    /* header */
+    .header .header_img {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .header_info span.fa-truck {
+        font-size: 30px;
+    }
+    .header .header_img img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .header_info .intro {
+        font-size: 20px;
+    }
+}
+/* Responsiveness at 300px */
+@media screen and (max-width: 300px) {
+    /* header */
+    .header .header_img {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .header_info span.fa-truck {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .header_info p {
+        font-size: 10px;
+    }
+    .header .header_img img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .header_info .intro {
+        font-size: 15px;
+    }
+}

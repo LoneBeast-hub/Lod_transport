@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lod transport</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/loneFrame.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="icon/all.css">
+        <link rel="stylesheet" href="icon/font-awesome.css">
+        <link rel="stylesheet" href="css/carousel.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- navigation -->
+            <nav class="nav">
+                <!-- brand logo -->
+                <div class="logo">Lod transport</div>
+                <!-- navigation links -->
+                <div class="nav-links">
+                    <a class="active" href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="home.html#track">Tracking</a>
+                    <a href="order.html">Order</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <span class="toggle-menu fa fa-bars"></span>
+                <div class="clear-both"></div>
+            </nav>
+            <!-- Header -->
+            <header class="header">
+                <!-- header img -->
+                <div class="header_img">
+                    <img src="img/courier_van.jpg" alt="">
+                    <div class="img_cover"></div>
+                    <div class="header_info">
+                        <span class="fa fa-truck fa-flip-horizontal"></span>
+                        <p>FAST | SECURE</p>
+                        <p class="intro"><span class="colored">LOD TRANSPORT</span> IS HERE FOR YOUR <span class="colored">PACKAGE DELIVERIES</span></p>
+                    </div>
+                </div>
+            </header>
+            <!-- Section -->
+            <section class="section">
+                <div id="track" class="trackProduct simple-bx">
+                    <!-- track product heading -->
+                    <div class="heading">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="title">TRACK YOUR PACKAGE</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="sub-title">You can now track your package easily</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- track product info -->
+                    <div class="info">
+                        <div class="row">
+                            <div class="col-6">
+                                <input class="trackProductName" type="text" placeholder="Enter your package Name">
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="trackBtn">
+                                    <span class="fa fa-whatsapp"></span>
+                                    TRACK YOUR PACKAGE
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Us -->
+                <div class="about">
+                    <div class="heading">
+                        <p class="cover">ABOUT</p>
+                        <p class="title">ABOUT US</p>
+                    </div>
+                    <div class="info">
+                        <p class="intro">
+                            We are a Brand that has effectively satisfied more 
+                            than 1500 requests to in excess of 100 families across 
+                            Lagos state with more than 20 ground transporting vehicles 
+                            which makes it easy to deliver more packages at various or 
+                            the same location on time. We are LOD TRANSPORT!
+                        </p>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row sub-row">
+                                    <div class="col-1">
+                                        <span class="fa fa-rocket"></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <p class="title">FAST DELIVERY</p>
+                                        <p class="sub-title">We deliver packages fast</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row sub-row">
+                                    <div class="col-1">
+                                        <span class="fa fa-shield"></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <p class="title">SECURED SERVICE</p>
+                                        <p class="sub-title">Our services are 100% secure</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vehicle_img">
+                            <img src="img/about_img_no_log.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Calculate -->
+                <div class="calculate">
+                    <div class="calculate_img">
+                        <div>
+                            <p class="cover">CALCULATE</p>
+                        </div>
+                        <img src="img/courier_price.png" alt="">
+                    </div>
+                    <div class="calculate_info">
+                        <p class="calculate_title">CALCULATE YOUR COST</p>
+                        <p class="calculate_subtitle">Fill out the data below and submit to negotiate your cost</p>
+                        <div class="calculate_form">
+                            <div>
+                                <label for="height">HEIGHT(CM) :</label>
+                                <input type="number" id="height" placeholder="Enter the height of your package">
+                            </div>
+                            <div>
+                                <label for="width">WIDTH(CM) :</label>
+                                <input type="number" id="width" placeholder="Enter the width of your package">
+                            </div>
+                            <div>
+                                <label for="weight">WEIGHT(KG) :</label>
+                                <input type="number" id="weight" placeholder="Enter the weight of your package">
+                            </div>
+                            <div>
+                                <label>LOCATION :</label>
+                                <input type="text" id="locationFrom" placeholder="From (Enter your pickup location)">
+                                <input type="text" placeholder="To (Enter your dispatch location)" id="locationTo">
+                            </div>
+                            <div>
+                                <label for="quantity">PACKAGE QUANTITY :</label>
+                                <input type="number" id="quantity" placeholder="Enter your package quantity">
+                            </div>
+                            <div>
+                                <label for="package">PACKAGE TYPE :</label>
+                                <select id="package">
+                                    <option value="" hidden>-- Select Package Type --</option>
+                                    <option value="box">Box</option>
+                                    <option value="parcel">Parcel</option>
+                                    <option value="wrapped">Wrapped</option>
+                                </select>
+                            </div>
+                            <div class="sn">
+                                <p>Click this if you filled the form</p>
+                                <a href="#" id="submitOrder"><span class="fa fa-whatsapp"></span> Submit & Negotiate</a>
+                            </div>
+                            <div class="dc">
+                                <p>Click this if you want to contact directly for deal</p>
+                                <a href="#" id="msgOrder"><span class="fa fa-whatsapp"></span> Direct Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonies -->
+                <div class="testimonies">
+                    <!-- carousel -->
+                    <div class="slider">
+                        <button class="btn btn-left hide"><span class="fa fa-arrow-left"></span></button>
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="slide active">
+                                    <div class="avatar"></div>
+                                    <p>Sarah Betsy</p>
+                                    <p>
+                                        Am an Entreprenuer who sells unisex wears and 
+                                        of course this brand has helped delivered my 
+                                        wears to clients on time. This brand is indeed 
+                                        reliable I must say!
+                                    </p>
+                                </div>
+                                <div class="slide">
+                                    <div class="avatar"></div>
+                                    <p>John Kelvin</p>
+                                    <p>
+                                        Someone told me about this brand just at the right 
+                                        time I needed to deliver products to my clients. 
+                                        I never thought the product could be delivered that 
+                                        fast but this brand suprised me.
+                                    </p>
+                                </div>
+                                <div class="slide">
+                                    <div class="avatar"></div>
+                                    <p>James Richard</p>
+                                    <p>
+                                        Sincerely, This brand is very fast and 
+                                        they really do deliver one's package in good 
+                                        condition. They are the best I have for delivery.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-right"><span class="fa fa-arrow-right"></span></button>
+                        <div class="slider_nav">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact -->
+                <div class="contact simple-bx">
+                    <div class="heading">
+                        <p class="title">CONTACT US</p>
+                        <p class="sub-title">Get in touch with us easily</p>
+                    </div>
+                    <div class="info">
+                        <p>HOTLINE: <span class="sub-info">+234707112578</span></p>
+                        <p>WHATSAPP: <span class="sub-info">+234707112578</span></p>
+                        <p>EMAIL: <span class="sub-info">LodtransportNg@gmail.com</span></p>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- footer One -->
+                <div class="footer_one">
+                    <!-- Brand logo -->
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <!-- Quick links -->
+                    <div class="quick_links">
+                        <p class="title">QUICK LINKS</p>
+                        <div class="links">
+                            <a href="home.html">HOME</a>
+                            <a href="about.html">ABOUT</a>
+                            <a href="home.html#track">TRACKING</a>
+                            <a href="order.html">ORDER</a>
+                            <a href="contact.html">CONTACT</a>
+                        </div>
+                    </div>
+                    <!-- social media -->
+                    <div class="social">
+                        <p>GET IN TOUCH</p>
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-whatsapp"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                    </div>
+                </div>
+                <!-- footer two -->
+                <div class="footer_two">
+                    <p>&copy; Copyright 2020 Lod transport. All rights reserved</p>
+                </div>
+            </footer>
+        </div>
+        <script src="js/all.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/carousel.js"></script>
+    </body>
+</html>

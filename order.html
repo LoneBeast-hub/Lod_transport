@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order for delivery on Lod transport</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/loneFrame.css">
+        <link rel="stylesheet" href="icon/all.css">
+        <link rel="stylesheet" href="icon/font-awesome.css">
+        <link rel="stylesheet" href="css/order.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- navigation -->
+            <nav class="nav">
+                <!-- brand logo -->
+                <div class="logo">Lod transport</div>
+                <!-- navigation links -->
+                <div class="nav-links">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="home.html#track">Tracking</a>
+                    <a class="active" href="order.html">Order</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <span class="toggle-menu fa fa-bars"></span>
+                <div class="clear-both"></div>
+            </nav>
+            <!-- section -->
+            <section class="section">
+                <div class="order_title">
+                    <p>PLACE A DELIVERY ORDER NOW!</p>
+                </div>
+                <!-- Calculate -->
+                <div class="calculate">
+                    <div class="calculate_info">
+                        <p class="calculate_title">CALCULATE YOUR COST</p>
+                        <p class="calculate_subtitle">Fill out the data below and submit to negotiate your cost</p>
+                        <div class="calculate_form">
+                            <div>
+                                <label for="height">HEIGHT(CM) :</label>
+                                <input type="text" id="height" placeholder="Enter the height of your package">
+                            </div>
+                            <div>
+                                <label for="width">WIDTH(CM) :</label>
+                                <input type="text" id="width" placeholder="Enter the width of your package">
+                            </div>
+                            <div>
+                                <label for="weight">WEIGHT(KG) :</label>
+                                <input type="text" id="weight" placeholder="Enter the weight of your package">
+                            </div>
+                            <div>
+                                <label>LOCATION :</label>
+                                <input type="text" id="locationFrom" placeholder="From (Enter your pickup location)">
+                                <input type="text" placeholder="To (Enter your dispatch location)" id="locationTo">
+                            </div>
+                            <div>
+                                <label for="quantity">PACKAGE QUANTITY :</label>
+                                <input type="number" id="quantity" placeholder="Enter your package quantity">
+                            </div>
+                            <div>
+                                <label for="package">PACKAGE TYPE :</label>
+                                <select id="package">
+                                    <option value="" hidden>-- Select Package Type --</option>
+                                    <option value="box">Box</option>
+                                    <option value="parcel">Parcel</option>
+                                    <option value="wrapped">Wrapped</option>
+                                </select>
+                            </div>
+                            <div class="sn">
+                                <p>Click this if you filled the form</p>
+                                <a href="#" id="submitOrder"><span class="fa fa-whatsapp"></span> Submit & Negotiate</a>
+                            </div>
+                            <div class="dc">
+                                <p>Click this if you want to contact directly for deal</p>
+                                <a href="#" id="msgOrder"><span class="fa fa-whatsapp"></span> Direct Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- footer One -->
+                <div class="footer_one">
+                    <!-- Brand logo -->
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <!-- Quick links -->
+                    <div class="quick_links">
+                        <p class="title">QUICK LINKS</p>
+                        <div class="links">
+                            <a href="home.html">HOME</a>
+                            <a href="about.html">ABOUT</a>
+                            <a href="home.html#track">TRACKING</a>
+                            <a href="order.html">ORDER</a>
+                            <a href="contact.html">CONTACT</a>
+                        </div>
+                    </div>
+                    <!-- social media -->
+                    <div class="social">
+                        <p>GET IN TOUCH</p>
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-whatsapp"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                    </div>
+                </div>
+                <!-- footer two -->
+                <div class="footer_two">
+                    <p>&copy; Copyright 2020 Lod transport. All rights reserved</p>
+                </div>
+            </footer>
+        </div>
+        <script src="js/all.js"></script>
+        <script src="js/order.js"></script>
+    </body>
+</html>
